@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%   TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{minipage}{0.20\textwidth}
+\includegraphics[width=0.9\textwidth]{photo.jpg}
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth} % 45% of the page width for name
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % If your name is very short, use just one of the lines below
+    % If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Qiuyu}}}}} % First name
+
+    \colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Bi}}}}} % Last name
+
+    \vspace{6pt}
+
+    {\huge undergraduate} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    \icon{MapMarker}{12}{Jiangsu Nanjing}\\
+    \icon{Phone}{12}{+86 137 7336 2180}\\
+    \icon{At}{12}{\href{mailto:pichiuyu@gmail.com}{pichiuyu@gmail.com}}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    % The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+    % Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+    %\icon{Globe}{12}{\href{https://alyx.vance.me}{alyx.vance.me}}\\
+    \icon{Github}{12}{\href{https://github.com/bqy1999}{github.com/bqy1999}}\\
+    %\icon{Twitter}{12}{\href{https://twitter.com/@alyxvance}{@alyxvance}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%   INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    My name is Bi Qiuyu. I was born in Jiangsu province, China in 1999. During my undergraduate, I studied computer science and technology at Nanjing University. In school, I participated in many competitions, including MCM, vivo hackathon and so on. Won the third prize of college students' knowledge contest. At the same time, I served as the minister of Practice department in the Student Union of Computer department and the head of Education department in our school's go club.
+    %\lorem \lorem \lorem \lorem \lorem\\ % Dummy text
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+    \begin{barchart}{5.5}
+        \baritem{Python}{80}
+        \baritem{C/C++}{90}
+        \baritem{Git}{70}
+        \baritem{LaTeX}{80}
+        \baritem{Sklearn}{60}
+        \baritem{TensorFlow}{30}
+        \baritem{Java}{50}
+    \end{barchart}
+\end{minipage}
+
+\begin{center}
+    \bubbles{5/Python, 6/C++, 4/Git, 5/LaTeX, 4/Sklearn,3/TensorFlow,4/Java}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%   EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+    \entry
+    {2/2018 -- 3/2018}
+    {Exchange student}
+    {HongKong University.}
+    {During my exchange, I participated in a competition organized by the university of Hong Kong on Kaggle to research the running time of algorithms with different parameters\\ \texttt{Python}\slashsep\texttt{Sklearn}\slashsep\texttt{Tensorflows}}
+    \entry
+    {8/2019 -- 1/2020}
+    {Exchange student}
+    {University of California, Berkeley.}
+    {During my life in California, I was really exposed to scientific research at the first time. This exchange activity has greatly enriched my horizon.\\ \texttt{LaTeX}\slashsep\texttt{C/C++}\slashsep\texttt{Git}\slashsep\texttt{Linux}}
+    %   \entry
+    %       {2013 -- 2014\\\footnotesize{part time}}
+    %       {Junior PHP Developer}
+    %       {example.com}
+    %       {\lorem\lorem\\ \texttt{PHP}\slashsep\texttt{Laravel}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education Histrory}
+
+\begin{entrylist}
+    \entry
+    {2014 -- 2017}
+    {High School Degree}
+    {Yizheng High School}
+    {High school education has laid a solid foundation for my future journey. I learned a lot of basic mathematics here, including differentiation, integration and probability. When I was a senior in high school, Alphago beat lee sedol, which is a shock to me. Through this opportunity, I chose computer science and technology as my future direction\lorem}
+    \entry
+    {2017 -- }
+    {Postgraduate Diploma}
+    {Nanjing University}
+    {As a sophomore, I served as the minister of Practice department in the Student Union of Computer department of Nanjing University. Nanjing University gives me a platform to get access to cutting-edge knowledge. During the freshman, I learn how to use algorithms to solve different problems whether it's hard or easy. During the sophomore year, I learned a lot about operating systems and wrote a small file system and now my GPA is 4.3}
+    %   \entry
+    %       {2007 -- 2013}
+    %       {Bachelor's Degree}
+    %       {A University Name}
+    %       {\lorem\lorem}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \cvsect{Languages}
+
+    \textbf{Chinese} - native\\
+    \textbf{English} - proficient\\
+    \textbf{Japanese} - rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \cvsect{Hobbies}
+
+    I love the game of go. I started to learn go when I was 4 years old, and now I am the five level of go. I was the head of Education department of Go club of Nanjing University. I also like to play tennis, although not very good, I still keep a strong interest in it.
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+    \vspace{-\baselineskip} % Required for vertically aligning minipages
+
+    \cvsect{Non profit}
+
+    During the summer vacation of my freshman year, I helped to investigate the information security in online shopping and summarized several methods for residents to protect their information when shopping online.
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
