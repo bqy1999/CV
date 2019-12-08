@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.8.28)  13 AUG 2019 23:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.8.28)  7 DEC 2019 21:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -63,9 +63,10 @@ Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
@@ -101,8 +102,6 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count90
 
@@ -140,12 +139,23 @@ LaTeX Info: Redefining \pageref on input line 6443.
 \c@Item=\count94
 \c@Hfootnote=\count95
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (autodetected): hxetex.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count96
-\c@bookmark@seq@number=\count97
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2018/02/06 v6.86b Hyperref driver for XeTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box26
+\c@Hy@AnnotLevel=\count96
+\HyField@AnnotCount=\count97
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -159,9 +169,9 @@ Package: moresize 1999/07/26 v1.9 (more font sizes)
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
-\Gm@cnth=\count98
-\Gm@cntv=\count99
-\c@Gm@tempcnt=\count100
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
 \Gm@bindingoffset=\dimen108
 \Gm@wd@mp=\dimen109
 \Gm@odd@mp=\dimen110
@@ -176,17 +186,24 @@ Package: geometry 2018/03/24 v5.7 Page Geometry
 Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/raleway/raleway.sty
-Package: raleway 2016/12/03 v1.4 Matt McInerney\T1\textquoteright s Raleway fam
-ily
+Package: raleway 2016/12/03 v1.4 Matt McInerney’s Raleway family
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
@@ -196,179 +213,692 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks18
 \XKV@tempa@toks=\toks19
 )
-\XKV@depth=\count101
+\XKV@depth=\count103
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/03/05 L3 programming layer (code)
+\c_max_int=\count104
+\l_tmpa_int=\count105
+\l_tmpb_int=\count106
+\g_tmpa_int=\count107
+\g_tmpb_int=\count108
+\g__intarray_font_int=\count109
+\g__prg_map_int=\count110
+\c_log_iow=\count111
+\l_iow_line_count_int=\count112
+\l__iow_line_target_int=\count113
+\l__iow_one_indent_int=\count114
+\l__iow_indent_int=\count115
+\c_zero_dim=\dimen116
+\c_max_dim=\dimen117
+\l_tmpa_dim=\dimen118
+\l_tmpb_dim=\dimen119
+\g_tmpa_dim=\dimen120
+\g_tmpb_dim=\dimen121
+\c_zero_skip=\skip44
+\c_max_skip=\skip45
+\l_tmpa_skip=\skip46
+\l_tmpb_skip=\skip47
+\g_tmpa_skip=\skip48
+\g_tmpb_skip=\skip49
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count116
+\c__fp_leading_shift_int=\count117
+\c__fp_middle_shift_int=\count118
+\c__fp_trailing_shift_int=\count119
+\c__fp_big_leading_shift_int=\count120
+\c__fp_big_middle_shift_int=\count121
+\c__fp_big_trailing_shift_int=\count122
+\c__fp_Bigg_leading_shift_int=\count123
+\c__fp_Bigg_middle_shift_int=\count124
+\c__fp_Bigg_trailing_shift_int=\count125
+\l__sort_length_int=\count126
+\l__sort_min_int=\count127
+\l__sort_top_int=\count128
+\l__sort_max_int=\count129
+\l__sort_true_max_int=\count130
+\l__sort_block_int=\count131
+\l__sort_begin_int=\count132
+\l__sort_end_int=\count133
+\l__sort_A_int=\count134
+\l__sort_B_int=\count135
+\l__sort_C_int=\count136
+\l__tl_build_start_index_int=\count137
+\l__tl_build_index_int=\count138
+\l__tl_analysis_normal_int=\count139
+\l__tl_analysis_index_int=\count140
+\l__tl_analysis_nesting_int=\count141
+\l__tl_analysis_type_int=\count142
+\l__regex_internal_a_int=\count143
+\l__regex_internal_b_int=\count144
+\l__regex_internal_c_int=\count145
+\l__regex_balance_int=\count146
+\l__regex_group_level_int=\count147
+\l__regex_mode_int=\count148
+\c__regex_cs_in_class_mode_int=\count149
+\c__regex_cs_mode_int=\count150
+\l__regex_catcodes_int=\count151
+\l__regex_default_catcodes_int=\count152
+\c__regex_catcode_L_int=\count153
+\c__regex_catcode_O_int=\count154
+\c__regex_catcode_A_int=\count155
+\c__regex_all_catcodes_int=\count156
+\l__regex_show_lines_int=\count157
+\l__regex_min_state_int=\count158
+\l__regex_max_state_int=\count159
+\l__regex_left_state_int=\count160
+\l__regex_right_state_int=\count161
+\l__regex_capturing_group_int=\count162
+\l__regex_min_pos_int=\count163
+\l__regex_max_pos_int=\count164
+\l__regex_curr_pos_int=\count165
+\l__regex_start_pos_int=\count166
+\l__regex_success_pos_int=\count167
+\l__regex_curr_char_int=\count168
+\l__regex_curr_catcode_int=\count169
+\l__regex_last_char_int=\count170
+\l__regex_case_changed_char_int=\count171
+\l__regex_curr_state_int=\count172
+\l__regex_step_int=\count173
+\l__regex_min_active_int=\count174
+\l__regex_max_active_int=\count175
+\l__regex_replacement_csnames_int=\count176
+\l__regex_match_count_int=\count177
+\l__regex_min_submatch_int=\count178
+\l__regex_submatch_int=\count179
+\l__regex_zeroth_submatch_int=\count180
+\g__regex_trace_regex_int=\count181
+\c_empty_box=\box27
+\l_tmpa_box=\box28
+\l_tmpb_box=\box29
+\g_tmpa_box=\box30
+\g_tmpb_box=\box31
+\l__box_top_dim=\dimen122
+\l__box_bottom_dim=\dimen123
+\l__box_left_dim=\dimen124
+\l__box_right_dim=\dimen125
+\l__box_top_new_dim=\dimen126
+\l__box_bottom_new_dim=\dimen127
+\l__box_left_new_dim=\dimen128
+\l__box_right_new_dim=\dimen129
+\l__box_internal_box=\box32
+\l__coffin_internal_box=\box33
+\l__coffin_internal_dim=\dimen130
+\l__coffin_offset_x_dim=\dimen131
+\l__coffin_offset_y_dim=\dimen132
+\l__coffin_x_dim=\dimen133
+\l__coffin_y_dim=\dimen134
+\l__coffin_x_prime_dim=\dimen135
+\l__coffin_y_prime_dim=\dimen136
+\c_empty_coffin=\box34
+\l__coffin_aligned_coffin=\box35
+\l__coffin_aligned_internal_coffin=\box36
+\l_tmpa_coffin=\box37
+\l_tmpb_coffin=\box38
+\l__coffin_display_coffin=\box39
+\l__coffin_display_coord_coffin=\box40
+\l__coffin_display_pole_coffin=\box41
+\l__coffin_display_offset_dim=\dimen137
+\l__coffin_display_x_dim=\dimen138
+\l__coffin_display_y_dim=\dimen139
+\l__coffin_bounding_shift_dim=\dimen140
+\l__coffin_left_corner_dim=\dimen141
+\l__coffin_right_corner_dim=\dimen142
+\l__coffin_bottom_corner_dim=\dimen143
+\l__coffin_top_corner_dim=\dimen144
+\l__coffin_scaled_total_height_dim=\dimen145
+\l__coffin_scaled_width_dim=\dimen146
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvidpfmx.def 2017/03/18 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count182
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count183
+\g__xparse_grabber_int=\count184
+\l__xparse_m_args_int=\count185
+\l__xparse_mandatory_args_int=\count186
+\l__xparse_v_nesting_int=\count187
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count188
+\l__fontspec_language_int=\count189
+\l__fontspec_strnum_int=\count190
+\l__fontspec_tmp_int=\count191
+\l__fontspec_em_int=\count192
+\l__fontspec_emdef_int=\count193
+\l__fontspec_strong_int=\count194
+\l__fontspec_strongdef_int=\count195
+\l__fontspec_tmpa_dim=\dimen147
+\l__fontspec_tmpb_dim=\dimen148
+\l__fontspec_tmpc_dim=\dimen149
+\g__file_internal_ior=\read1
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ot1enc.def
-File: ot1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/ly1/ly1enc.def
-File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
-Now handling font encoding LY1 ...
-... processing UTF-8 mapping file for font encoding LY1
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 542.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 546.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 550.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 554.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 558.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 562.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 566.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 570.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 574.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 578.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 582.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 586.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 590.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 594.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 598.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 602.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 606.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 610.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 614.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 618.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 622.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 626.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 630.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 634.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3632.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3638.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3644.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3650.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3656.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3681.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3687.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3693.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3699.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3706.
+.................................................
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ly1enc.dfu
-File: ly1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2122 (decimal 8482)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3891.
+LaTeX Info: Redefining \slshape on input line 3896.
+LaTeX Info: Redefining \scshape on input line 3901.
+LaTeX Info: Redefining \upshape on input line 3906.
+LaTeX Info: Redefining \em on input line 3936.
+LaTeX Info: Redefining \emph on input line 3961.
+LaTeX Info: Redefining \- on input line 4015.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 4110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 4114.
+.................................................
 ))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+\g__fontspec_family_Raleway_int=\count196
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(0)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,Ligatures=TeX,UprightFont
+. = *-Regular,ItalicFont = *-Regular-Italic,BoldFont = *-Bold,BoldItalicFont =
+. *-Bold-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex
+-text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mappi
+ng=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-te
+xt;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping=
+tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapp
+ing=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smc
+p;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapping
+=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;m
+apping=tex-text;"
+.................................................
+LaTeX Info: Redefining \sffamily on input line 129.
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(1)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,UprightFont =
+. *-Regular,ItalicFont = *-Regular-Italic,BoldFont = *-Bold,BoldItalicFont =
+. *-Bold-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex
+-text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mappi
+ng=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-te
+xt;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping=
+tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapp
+ing=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Regular-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smc
+p;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapping
+=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;m
+apping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(2)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,UprightFont =
+. *-Medium,ItalicFont = *-Medium-Italic,BoldFont = *-Bold,BoldItalicFont =
+. *-Bold-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Medium.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-
+text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Medium.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mappin
+g=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-te
+xt;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping=
+tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Medium-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mappi
+ng=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Medium-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp
+;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapping
+=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Bold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;m
+apping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(3)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,UprightFont =
+. *-Light,ItalicFont = *-Light-Italic,BoldFont = *-SemiBold,BoldItalicFont =
+. *-SemiBold-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Light.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-t
+ext;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Light.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping
+=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-SemiBold.otf]/OT:script=latn;language=DFLT;+lnum;mapping=te
+x-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-SemiBold.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapp
+ing=tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Light-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mappin
+g=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Light-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;
+mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-SemiBold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;map
+ping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-SemiBold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+sm
+cp;mapping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(4)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,UprightFont =
+. *-Thin,ItalicFont = *-Thin-Italic,BoldFont = *-Black,BoldItalicFont =
+. *-Black-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Thin.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-te
+xt;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Thin.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping=
+tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-Black.otf]/OT:script=latn;language=DFLT;+lnum;mapping=tex-t
+ext;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-Black.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;mapping
+=tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Thin-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mapping
+=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Thin-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;m
+apping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-Black-Italic.otf]/OT:script=latn;language=DFLT;+lnum;mappin
+g=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-Black-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;
+mapping=tex-text;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Raleway(5)' created for font 'Raleway' with options [Ligatures
+. = TeX,Numbers = Lining,Scale = 1,Extension = .otf,UprightFont =
+. *-ExtraLight,ItalicFont = *-ExtraLight-Italic,BoldFont =
+. *-ExtraBold,BoldItalicFont = *-ExtraBold-Italic].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraLight.otf]/OT:script=latn;language=DFLT;+lnum;mapping=
+tex-text;"
+. - 'small caps'  (m/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraLight.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;ma
+pping=tex-text;"
+. - 'bold' (bx/n) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraBold.otf]/OT:script=latn;language=DFLT;+lnum;mapping=t
+ex-text;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraBold.otf]/OT:script=latn;language=DFLT;+lnum;+smcp;map
+ping=tex-text;"
+. - 'italic' (m/it) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraLight-Italic.otf]/OT:script=latn;language=DFLT;+lnum;m
+apping=tex-text;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraLight-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+
+smcp;mapping=tex-text;"
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraBold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;ma
+pping=tex-text;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+. <->s*[1]"[Raleway-ExtraBold-Italic.otf]/OT:script=latn;language=DFLT;+lnum;+s
+mcp;mapping=tex-text;"
+.................................................
 )
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/mweights/mweights.sty
-Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
-font packages. 
-LaTeX Info: Redefining \bfseries on input line 22.
-LaTeX Info: Redefining \mdseries on input line 30.
-LaTeX Info: Redefining \rmfamily on input line 38.
-LaTeX Info: Redefining \sffamily on input line 66.
-LaTeX Info: Redefining \ttfamily on input line 94.
-))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty
 Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-ge
 neric.tex)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pd
-ftex.tex))
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+? 
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font "FontAwesome" does not contain any OpenType `Script' information.
+.................................................
+\g__fontspec_family_FontAwesome_int=\count197
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FontAwesome/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FontAwesome/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "FontAwesome/I" (it probably doesn't exist).
+.................................................
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+? 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesome.sty:45: fo
+ntspec error: "font-not-found"
+! 
+! The font "FontAwesome" cannot be found.
+! 
+! See the fontspec documentation for further information.
+! 
+! For immediate help type H <return>.
+!...............................................  
+                                                  
+l.45 \newfontfamily{\FA}{FontAwesome}
+                                     
+? 
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FontAwesome(0)' created for font 'FontAwesome' with options [].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"FontAwesome"
+. - 'small caps'  (m/sc) with NFSS spec.: <->"FontAwesome"
+.................................................
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-xe
+luatex.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks20
-\pgfutil@tempdima=\dimen116
-\pgfutil@tempdimb=\dimen117
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box26
+\pgfutil@abb=\box42
 (/usr/local/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
@@ -389,13 +919,13 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: xetex.def on input line 99.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
 ))
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
@@ -408,20 +938,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ode.tex
 \pgfkeys@tmptoks=\toks23
 ))
-\pgf@x=\dimen120
-\pgf@y=\dimen121
-\pgf@xa=\dimen122
-\pgf@ya=\dimen123
-\pgf@xb=\dimen124
-\pgf@yb=\dimen125
-\pgf@xc=\dimen126
-\pgf@yc=\dimen127
+\pgf@x=\dimen154
+\pgf@y=\dimen155
+\pgf@xa=\dimen156
+\pgf@ya=\dimen157
+\pgf@xb=\dimen158
+\pgf@yb=\dimen159
+\pgf@xc=\dimen160
+\pgf@yc=\dimen161
 \w@pgf@writea=\write3
-\r@pgf@reada=\read1
-\c@pgf@counta=\count102
-\c@pgf@countb=\count103
-\c@pgf@countc=\count104
-\c@pgf@countd=\count105
+\r@pgf@reada=\read2
+\c@pgf@counta=\count198
+\c@pgf@countb=\count199
+\c@pgf@countc=\count266
+\c@pgf@countd=\count267
 \t@pgf@toka=\toks24
 \t@pgf@tokb=\toks25
 \t@pgf@tokc=\toks26
@@ -429,21 +959,27 @@ ode.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
-(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
-ef
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.de
+f
+File: pgfsys-xetex.def 2014/07/09  (rcs-revision 1.11)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx
+.def
+File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
 df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)
+\pgfsys@objnum=\count268
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count106
-\pgfsyssoftpath@bigbuffer@items=\count107
+\pgfsyssoftpath@smallbuffer@items=\count269
+\pgfsyssoftpath@bigbuffer@items=\count270
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -454,9 +990,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: xetex.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -471,9 +1006,9 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen128
-\pgfmath@count=\count108
-\pgfmath@box=\box27
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count271
+\pgfmath@box=\box43
 \pgfmath@toks=\toks27
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
@@ -497,57 +1032,57 @@ code.tex)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count109
+\c@pgfmathroundto@lastzeros=\count272
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen129
-\pgf@picmaxx=\dimen130
-\pgf@picminy=\dimen131
-\pgf@picmaxy=\dimen132
-\pgf@pathminx=\dimen133
-\pgf@pathmaxx=\dimen134
-\pgf@pathminy=\dimen135
-\pgf@pathmaxy=\dimen136
-\pgf@xx=\dimen137
-\pgf@xy=\dimen138
-\pgf@yx=\dimen139
-\pgf@yy=\dimen140
-\pgf@zx=\dimen141
-\pgf@zy=\dimen142
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen143
-\pgf@path@lasty=\dimen144
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen145
-\pgf@shorten@start@additional=\dimen146
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
 File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box28
-\pgf@hbox=\box29
-\pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count110
+\pgfpic=\box44
+\pgf@hbox=\box45
+\pgf@layerbox@main=\box46
+\pgf@picture@serial@count=\count273
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen147
+\pgflinewidth=\dimen181
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen148
-\pgf@pt@y=\dimen149
-\pgf@pt@temp=\dimen150
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -564,13 +1099,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen151
+\pgfarrowsep=\dimen185
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen152
-\pgf@sys@shading@range@num=\count111
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count274
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -579,7 +1114,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
 code.tex
 File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box31
+\pgfexternal@startupbox=\box47
 ))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
 de.tex
@@ -596,7 +1131,7 @@ File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
 e.tex
 File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box32
+\pgfnodeparttextbox=\box48
 )
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
 tex
@@ -605,8 +1140,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen153
-\pgf@nodesepend=\dimen154
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
 )
 (/usr/local/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -621,8 +1156,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen155
-\pgffor@skip=\dimen156
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
@@ -633,32 +1168,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count112
-\pgfplotmarksize=\dimen157
+\pgf@plot@mark@count=\count275
+\pgfplotmarksize=\dimen191
 )
-\tikz@lastx=\dimen158
-\tikz@lasty=\dimen159
-\tikz@lastxsaved=\dimen160
-\tikz@lastysaved=\dimen161
-\tikzleveldistance=\dimen162
-\tikzsiblingdistance=\dimen163
-\tikz@figbox=\box33
-\tikz@figbox@bg=\box34
-\tikz@tempbox=\box35
-\tikz@tempbox@bg=\box36
-\tikztreelevel=\count113
-\tikznumberofchildren=\count114
-\tikznumberofcurrentchild=\count115
-\tikz@fig@count=\count116
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikzleveldistance=\dimen196
+\tikzsiblingdistance=\dimen197
+\tikz@figbox=\box49
+\tikz@figbox@bg=\box50
+\tikz@tempbox=\box51
+\tikz@tempbox@bg=\box52
+\tikztreelevel=\count276
+\tikznumberofchildren=\count277
+\tikznumberofcurrentchild=\count278
+\tikz@fig@count=\count279
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count117
-\pgfmatrixcurrentcolumn=\count118
-\pgf@matrix@numberofcolumns=\count119
+\pgfmatrixcurrentrow=\count280
+\pgfmatrixcurrentcolumn=\count281
+\pgf@matrix@numberofcolumns=\count282
 )
-\tikz@expandcount=\count120
+\tikz@expandcount=\count283
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -715,54 +1250,54 @@ File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
 shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
 
-\pgfnodepartlowerbox=\box37
-\pgfnodeparttwobox=\box38
-\pgfnodepartthreebox=\box39
-\pgfnodepartfourbox=\box40
-\pgfnodeparttwentybox=\box41
-\pgfnodepartnineteenbox=\box42
-\pgfnodeparteighteenbox=\box43
-\pgfnodepartseventeenbox=\box44
-\pgfnodepartsixteenbox=\box45
-\pgfnodepartfifteenbox=\box46
-\pgfnodepartfourteenbox=\box47
-\pgfnodepartthirteenbox=\box48
-\pgfnodeparttwelvebox=\box49
-\pgfnodepartelevenbox=\box50
-\pgfnodeparttenbox=\box51
-\pgfnodepartninebox=\box52
-\pgfnodeparteightbox=\box53
-\pgfnodepartsevenbox=\box54
-\pgfnodepartsixbox=\box55
-\pgfnodepartfivebox=\box56
+\pgfnodepartlowerbox=\box53
+\pgfnodeparttwobox=\box54
+\pgfnodepartthreebox=\box55
+\pgfnodepartfourbox=\box56
+\pgfnodeparttwentybox=\box57
+\pgfnodepartnineteenbox=\box58
+\pgfnodeparteighteenbox=\box59
+\pgfnodepartseventeenbox=\box60
+\pgfnodepartsixteenbox=\box61
+\pgfnodepartfifteenbox=\box62
+\pgfnodepartfourteenbox=\box63
+\pgfnodepartthirteenbox=\box64
+\pgfnodeparttwelvebox=\box65
+\pgfnodepartelevenbox=\box66
+\pgfnodeparttenbox=\box67
+\pgfnodepartninebox=\box68
+\pgfnodeparteightbox=\box69
+\pgfnodepartsevenbox=\box70
+\pgfnodepartsixbox=\box71
+\pgfnodepartfivebox=\box72
 )))
 (/usr/local/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box57
-\pgf@layerboxsaved@background=\box58
+\pgf@layerbox@background=\box73
+\pgf@layerboxsaved@background=\box74
 )
-\c@barcount=\count121
-\c@a=\count122
-\c@b=\count123
-\c@c=\count124
+\c@barcount=\count284
+\c@a=\count285
+\c@b=\count286
+\c@c=\count287
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip44
-\LTright=\skip45
-\LTpre=\skip46
-\LTpost=\skip47
-\LTchunksize=\count125
-\LTcapwidth=\dimen164
-\LT@head=\box59
-\LT@firsthead=\box60
-\LT@foot=\box61
-\LT@lastfoot=\box62
-\LT@cols=\count126
-\LT@rows=\count127
-\c@LT@tables=\count128
-\c@LT@chunks=\count129
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count288
+\LTcapwidth=\dimen198
+\LT@head=\box75
+\LT@firsthead=\box76
+\LT@foot=\box77
+\LT@lastfoot=\box78
+\LT@cols=\count289
+\LT@rows=\count290
+\c@LT@tables=\count291
+\c@LT@chunks=\count292
 \LT@p@ftn=\toks32
 )) (./main.aux)
 \openout1 = `main.aux'.
@@ -775,37 +1310,27 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for LY1+ptm on input line 27.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/ly1/ly1ptm.fd
-File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
-)
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Try loading font information for T1+Raleway-TLF on input li
-ne 27.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
-File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
-F.
-)
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 27.
-\AtBeginShipoutBox=\box63
+\AtBeginShipoutBox=\box79
 Package hyperref Info: Link coloring OFF on input line 27.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count130
+\c@section@level=\count293
 )
 LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
@@ -816,10 +1341,13 @@ LaTeX Info: Redefining \nameref on input line 27.
 \openout4 = `main.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -850,164 +1378,1312 @@ LaTeX Info: Redefining \nameref on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
+LaTeX Font Info:    Redeclaring math accent \check on input line 27.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Raleway(0)/m/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Raleway(0)/bx/n on input line 27.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 27.
 ABD: EveryShipout initializing macros
-(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen165
-\scratchbox=\box64
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen166
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks34
-) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+./main.tex:28: LaTeX Error: Can be used only in preamble.
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-<photo.jpg, id=7, 1027.84pt x 1027.84pt>
-File: photo.jpg Graphic file (type jpg)
-<use photo.jpg>
-Package pdftex.def Info: photo.jpg  used on input line 33.
-(pdftex.def)             Requested size: 87.06349pt x 87.0594pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \usepackage
+                [UTF8]{ctex}
+? 
+File: photo.jpg Graphic file (type bmp)
+<photo.jpg>
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 35.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 34.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 29.86pt on input line 40.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 29.86pt on input line 40.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 46.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 53.
-LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
-line 53.
+(Font)              <5> on input line 35.
+LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
+(Font)              scaled to size 29.86pt on input line 41.
+LaTeX Font Info:    Font shape `TU/Raleway(0)/bx/n' will be
+(Font)              scaled to size 29.86pt on input line 41.
+Missing character: There is no 毕 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 秋 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 宇 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 47.
+Missing character: There is no 本 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 54.
+./main.tex:54: Font TU/FontAwesome(0)/m/n/10=FontAwesome at 10.0pt not loadable
+: Metric (TFM) file or installed font not found.
+<to be read again> 
+                   relax 
+l.54     \icon{MapMarker}{12}{江苏省南京市}
+                                     \\
+? 
+Missing character: There is no  in font nullfont!
+Missing character: There is no 江 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 苏 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 省 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 市 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no  in font nullfont!
+Missing character: There is no  in font nullfont!
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
-line 55.
+Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 53--56
+ []
+
+Missing character: There is no  in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Overfull \hbox (28.76889pt too wide) in paragraph at lines 32--66
+Overfull \hbox (28.76889pt too wide) in paragraph at lines 33--67
 []$[]$ [] [] [] 
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 73.
+LaTeX Font Info:    Font shape `TU/Raleway(0)/bx/n' will be
+(Font)              scaled to size 9.0pt on input line 74.
+Missing character: There is no 我 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 谁 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ？ in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 叫 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 毕 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 秋 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 宇 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 年 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 出 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 于 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 中 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 国 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 江 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 苏 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 省 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 本 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 习 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 技 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 术 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 就 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 读 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 校 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 间 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 参 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 加 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 很 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 多 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 比 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 赛 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 包 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 括 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 等 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 获 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 得 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 过 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 知 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 识 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 竞 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 赛 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 三 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 等 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 奖 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 同 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 还 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 担 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 任 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 会 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 实 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 践 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 长 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 和 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 校 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 围 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 棋 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 俱 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 乐 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 教 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 长 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 个 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 人 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 经 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 历 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 110.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 7.0pt on input line 110.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 110.
+Missing character: There is no 交 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+LaTeX Font Info:    Font shape `TU/Raleway(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 111.
+LaTeX Font Info:    Font shape `TU/Raleway(0)/bx/n' will be
+(Font)              scaled to size 7.0pt on input line 111.
+Missing character: There is no 香 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 港 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 交 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 期 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 间 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 参 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 加 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 香 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 港 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 上 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 组 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 织 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 场 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 比 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 赛 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 研 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 究 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 不 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 同 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 参 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 数 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 下 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 运 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 行 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 间 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 交 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 换 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 加 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 州 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 伯 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 克 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 利 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 加 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 州 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 活 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 候 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 第 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 次 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 接 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 触 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 到 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 研 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 究 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 这 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 次 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 交 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 流 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 活 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 动 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 极 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 地 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 丰 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 富 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 视 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 野 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 教 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 育 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 背 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 景 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
 
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+Missing character: There is no 中 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 位 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 仪 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 征 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 中 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 高 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 中 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 教 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 育 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 为 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 未 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 来 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 旅 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 程 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 奠 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 定 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 坚 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 实 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 基 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 础 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 这 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 里 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 很 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 多 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 基 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 础 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 数 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 包 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 括 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 微 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 分 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 、 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 积 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 分 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 和 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 概 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 率 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 上 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 高 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 中 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 候 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 打 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 败 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 李 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 世 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 石 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 这 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 让 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 很 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 震 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 惊 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 通 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 过 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 这 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 次 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 会 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 选 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 择 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 与 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 技 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 术 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 作 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 为 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 未 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 来 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 方 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 向 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 本 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 科 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 位 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 二 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 曾 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 担 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 任 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 计 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 机 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 生 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 会 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 实 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 践 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 长 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 给 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 个 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 接 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 触 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 前 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 沿 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 知 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 识 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 平 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 台 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 候 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 习 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 如 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 何 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 使 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 用 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 算 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 来 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 解 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 决 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 不 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 同 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 问 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 题 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 无 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 论 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 难 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 易 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 二 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 候 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 到 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 很 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 多 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 关 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 于 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 操 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 作 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 统 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 知 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 识 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 写 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 个 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 小 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 文 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 件 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 系 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 统 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 现 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 语 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 言 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 能 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 力 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+Missing character: There is no 兴 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 趣 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 爱 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 好 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 爱 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 好 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 下 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 围 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 棋 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 从 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 岁 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 开 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 始 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 围 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 棋 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 现 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 在 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 五 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 段 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 南 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 京 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 围 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 棋 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 俱 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 乐 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 教 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 学 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 部 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 长 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 也 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 喜 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 欢 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 打 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 网 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 球 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 虽 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 然 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 不 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 是 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 很 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 好 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 但 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 仍 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 然 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 保 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 持 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 着 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 浓 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 厚 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 兴 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 趣 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 公 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 益 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 活 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 动 in font [Raleway-Bold.otf]/OT:script=latn;lang
+uage=DFLT;+lnum;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+Missing character: There is no 大 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 一 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 暑 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 假 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 我 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 帮 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 助 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 调 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 查 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 网 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 上 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 购 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 物 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 信 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 息 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 安 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 全 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 问 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 题 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no ， in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 总 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 结 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 了 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 居 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 民 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 网 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 上 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 购 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 物 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 时 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 保 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 护 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 信 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 息 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 的 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 几 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 种 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 方 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 法 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+Missing character: There is no 。 in font [Raleway-Regular.otf]/OT:script=latn;l
+anguage=DFLT;+lnum;mapping=tex-text;!
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
-
- []
-
-
-Underfull \hbox (badness 4832) in paragraph at lines 174--175
-[]\T1/Raleway-TLF/m/n/9 During the sum-mer va-ca-tion of
- []
-
-
-Underfull \hbox (badness 2591) in paragraph at lines 174--175
-\T1/Raleway-TLF/m/n/9 in on-line shop-ping and sum-ma-
- []
-
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./photo
-.jpg>] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
  ) 
 Here is how much of TeX's memory you used:
- 20001 strings out of 492649
- 392561 string characters out of 6129622
- 485740 words of memory out of 5000000
- 23522 multiletter control sequences out of 15000+600000
- 116914 words of font info for 40 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 62i,8n,69p,493b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.
-enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/fontawesome/fontawesome
-two.enc}{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.en
-c}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/fontawesome/FontAwesom
-e.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/impallari/raleway/Raleway
--Bold.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/impallari/raleway/Ral
-eway-Regular.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/cm-supe
-r/sftt0900.pfb>
-Output written on main.pdf (2 pages, 235696 bytes).
-PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 32554 strings out of 492970
+ 666996 string characters out of 6133938
+ 762673 words of memory out of 5000000
+ 36137 multiletter control sequences out of 15000+600000
+ 536160 words of font info for 64 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 62i,7n,88p,10390b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on main.pdf (1 page).
